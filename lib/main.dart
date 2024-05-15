@@ -84,7 +84,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        backgroundColor: Color.fromARGB(255, 48, 48, 48),
+        
         colorSchemeSeed: Colors.blue[700],
       ),
       darkTheme: ThemeData.dark().copyWith(),
