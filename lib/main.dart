@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
@@ -18,7 +19,9 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  unawaited(MobileAds.instance.initialize());
+  if(Platform.isAndroid){
+    unawaited(MobileAds.instance.initialize());
+  }
   runApp(const MyApp());
 }
 
