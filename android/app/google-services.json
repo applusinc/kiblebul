@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1066093297584",
+    "project_id": "kiblebulucu-1de88",
+    "storage_bucket": "kiblebulucu-1de88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066093297584:android:7bdeb4ee5ec705d5f76075",
+        "android_client_info": {
+          "package_name": "com.hcsoftware.kiblebul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtgV7au8R07t6h7egAlJsrcOfIFmW6RVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
